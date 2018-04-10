@@ -23,7 +23,7 @@ public class JokesActivity extends AppCompatActivity {
             String joke = intent.getStringExtra(EXTRA_JOKE);
             jokeTextView.setText(joke);
         } else {
-            Toast.makeText(this, "No jokes provided!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.no_jokes, Toast.LENGTH_SHORT).show();
         }
 
     }
